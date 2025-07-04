@@ -1,6 +1,6 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        
+        #help
         target_counter = Counter(t)
         window_counter = Counter()  # This will keep a count of characters in the current window
         valid_char_count = 0       # Number of characters that meet the target criteria
